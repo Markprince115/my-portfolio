@@ -14,6 +14,9 @@ a:hover{
 body{
     font-family: 'Poppins', sans-serif;
 }
+nav{
+ height: 30vh;   
+}
 nav .logo{
     font-family: 'Poppins', sans-serifs;
     font-size: 30px;
