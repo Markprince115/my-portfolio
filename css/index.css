@@ -82,6 +82,8 @@ nav .logo{
 }
 #about img{
     width: 200px;
+    align-items: center;
+    text-align: center;
 }
 #about p{
     color: #fff;
