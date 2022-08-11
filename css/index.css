@@ -100,7 +100,7 @@ body{
 /* contact section */
 .contact{
     background-color: rgb(0, 10, 26);
-    height: 80vh;
+    height: 70vh;
 }
 .contact h2{
     background: linear-gradient(90deg, rgb(10, 101, 219), rgb(7, 160, 231), rgb(255, 0, 200) ) ;
