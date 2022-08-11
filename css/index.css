@@ -23,7 +23,7 @@ body{
     background: linear-gradient(90deg, rgb(3, 55, 122), rgb(7, 160, 231), rgb(255, 0, 200) ) ;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
     animation: animate 5s linear infinite;
@@ -32,7 +32,7 @@ body{
     background: linear-gradient(to bottom right, rgb(3, 55, 122), rgb(7, 160, 231), rgb(255, 0, 200) ) ;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
     animation: animate 5s linear infinite;
