@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Mark Prince, full stack web development" />
+    <meta name="keyword" content="Full stack dvelopment, Mark prince Portfolio website" />
+    <title>Mark Prince | Home</title>
 
     <!-- Bootstrap link-->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
@@ -18,190 +20,104 @@
     <!-- AOS -->
     <link rel="stylesheet" href="aos/aos.css">
 
+    <!--Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- header-->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <!-- Hero Section-->
+    <section id="hero" class="hero d-flex w-100 text-center align-items-center justify-content-between">
         <div class="container">
-            <a class="logo" href="index.html">Mark<span class="text-warning">Prince</span></a>
+            <p data-aos="zoom-in"> Hi, MY NAME IS</p>
+            <h2 data-aos="zoom-in">Mark Prince</h2>
+            <h3 data-aos="zoom-in"> I am a full-stack dev.</h3>
+            <p data-aos="zoom-in"> I like to build UI/UX experience for humans. 🚡 <br/>
+            i build web application for small Businesses and corporate organisation.</p>
+            <a type="button" href="#about" class=" w-30 "> continue ⬇️</a>
+        </div>
+    </section>
+    
+    <!-- About section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-title text-center p-lg-5">
+                <h2> About </h2>
+            </div>
+
+            <div class="row g-5  ">
+                <div class="col-md-6 p-4 text-center">
+                    <img src="img/20211018_140128.jpg" width="350" height="400" alt="">
+                </div>
+
+                <div class="col-md-6 align-items-baseline">
+                    <div class="col-title p-5">
+                        <h2> I'm Mark Prince</h2>
+                    </div>
+                    <p> I've been coding for 5years.<br/>
+                    I build full-stack applications and love learning new things. Here are my preferred stacks 👇  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section ends here -->
+
+    <!-- Skills Section -->
+    <section id="skill" class="skill align-items-center justify-content-center">
+        <div class="container">
+            <div class="skill-title text-center p-5">
+                <h2> Skills </h2>
+            </div>
+
+            <div class="row g-4 text-center">
+                <div class="col-md-4">
+                    <img src="img/html.png" width="200" height="200" alt="html">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/css.png" width="200" height="200" alt="css">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/javascript.png" width="200" height="200" alt="javascript">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/bootstrap.png" width="200" height="200" alt="javascript">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/tailwind.png" width="200" height="200" alt="javascript">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/React.png" width="200" height="200" alt="javascript">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/next.png" width="200" height="200" alt="javascript">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/git.png" width="200" height="200" alt="javascript">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/php.png" width="200" height="200" alt="javascript">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/node.png" width="200" height="200" alt="javascript">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/mysql.png" width="200" height="200" alt="javascript">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/mongodb.jpg" width="200" height="150" alt="javascript">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills end here -->
+
+    <!-- contact starts here -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-title text-center p-5">
+                <h2> Contact Me </h2>
+            </div>
             
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link"> Home </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link"> About </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skill" class="nav-link"> Skills </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link"> Contact </a>
-                    </li>
-                </ul>
-            </div>
         </div>
-    </nav>
-<!-- nav ends here-->
-
-<!-- Section Intro-->
-<section id="intro" class="text-light p-5 text-center text-sm-start">
-    <div class="container">
-        <div class="d-flex">
-            <div class="text" data-aos="zoom-in">
-                <p class="text-warning">Hi my name is</p>
-                    <h3> Mark Prince</h3>
-                    <h1>I'm a Front-End Developer </h1>
-                    <p> I am a frontend developer specializing<br> in building responsive full-stack web applications </p>
-                <button class="btn  btn-lg">
-                    <a href="#about"> Get Started</a>
-                </button>
-            </div>  
-        </div>
-    </div>
-</section>
-<!-- Section Intro ends here -->    
-    
-<!-- About section -->
-<section id="about" class="p-5">
-    <div class="contaiiner" data-aos="fade-up">
-        <div class="section-title text-center">
-            <h3> About </h3>
-        </div>
-        <div class="row align-items-center justify-content-between">
-            <div class="col-md" data-aos="fade-right">
-                <img src="img/20211018_140128.jpg" class="image-fluid w-5 p-5 rounded">
-            </div>
-            <div class="col-md" data-aos="fade-left">
-                <p>I am passionate about building excellent software that improves the lives of those <br>
-                around me. I specialize in creating softwares for client ranging from individuals and small businesses all the way to large enterprise corporations. What would you do<br> if you have a software expert available at your fingertips? </p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Section ends here -->
-
-<!-- Skills -->
-<section id="skill" class="skill p-5">
-    <div class="container">
-        <div class="section-title text-center text-dark py-5" data-aos="fade-up">
-            <h3> Skills </h3>
-        </div>
-        <div class="row text-center g-4 align-items-center justify-content-between">
-            <div class="col-md">
-                <div class="card bg-dark text-light" data-aos="fade-right">
-                    <div class="card-body text-center">
-                        <img src="img/html.png" alt="htmlpng" class="image-fluid w-5">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="card bg-dark text-light" data-aos="fade-up">
-                    <div class="card-body text-center">
-                        <img src="img/css.png" class="image-fluid w-5" alt="css png">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="card bg-dark text-light" data-aos="fade-left">
-                    <div class="card-body text-center">
-                        <img src="img/javascript.png" class="image-fluid w-5" alt="js png">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-4 my-5 text-center align-items-center justify-content-between">
-            <div class="col-md">
-                <div class="card bg-dark text-light" data-aos="fade-right">
-                    <div class="card-body text-center">
-                        <img src="img/bootstrap.png" class="image-fluid w-5" alt="bootstrap">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="card bg-dark text-light" data-aos="fade-up">
-                    <div class="card-body text-center">
-                        <img src="img/tailwindcss.png" class="image-fluid w-5" alt="tailwind">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="card bg-dark text-light" data-aos="fade-left">
-                    <div class="card-body text-center">
-                        <img src="img/React.png" class="image-fluid w-5" alt="React">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Skills section ends here -->
-
-<!-- Contact Section -->
-<section id="contact" class="contact p-5">
-    <div class="container">
-        <div class="section-title text-center py-5" data-aos="fade-up">
-            <h2> Contact </h2>
-        </div>
-        <div class="row g-4 align-items-center justify-content-between" data-aos="fade-up">
-            <div class="col-md">
-                <form action="form/contact.php" method="post" role="form" class="php-email-form">
-                    <div class="row">
-                      <div class="col-md-6 form-group">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                      </div>
-                      <div class="col-md-6 form-group mt-3 mt-md-0">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                      </div>
-                    </div>
-                    <div class="form-group mt-3">
-                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                    </div>
-                    <div class="form-group mt-3">
-                      <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                    </div>
-                    <div class="my-3">
-                      <div class="loading">Loading</div>
-                      <div class="error-message"></div>
-                      <div class="sent-message">Your message has been sent. Thank you!</div>
-                    </div>
-                    <div class="text-center"><button type="submit">Send Message</button></div>
-                </form>
-            </div>
-            <div class="col-md align-items-center">
-                <div class="info">
-                    <div class="address">
-                      <i class="fa fa-geo-alt"></i>
-                      <h4>Location:</h4>
-                      <p>Ijegun-Ikotun, Lagos, Nigeria</p>
-                    </div>
-      
-                    <div class="email">
-                      <i class="fa fa-envelope"></i>
-                      <h4>Email:</h4>
-                      <p>onyekamark98@gmail.com</p>
-                    </div>
-      
-                    <div class="phone">
-                      <i class="fa fa-phone"></i>
-                      <h4>Call:</h4>
-                      <p>+234 9021621762</p>
-                    </div>
-      
-                  </div>
-            </div>
-        </div>
-    </div>
-</section>
-    
-    
-    
+    </section>
     
     <!-- Jquery link-->
     <script src="jquery/jquery.min.js"></script>
